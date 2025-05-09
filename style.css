@@ -1,0 +1,46 @@
+body {
+    min-width: 550px;
+}
+
+#header {
+    background-color: aqua;
+}
+
+#middle{
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+#middle .column{
+    float: left;
+    height: 400px;
+}
+
+#left{
+    width: 200px;
+    margin-left: -100%;
+    position: relative;
+    right: 200px;
+    color:coral
+}
+
+#center{
+    width: 100%;
+    background-color: aquamarine;
+    color: darkblue;
+}
+
+#right{
+    margin-right: -150px;
+    width: 150px;
+    color:crimson
+}
+
+#footer {
+}
+
+.clearfix:after{
+    display: table;
+    content: '';
+    clear: both;
+}
